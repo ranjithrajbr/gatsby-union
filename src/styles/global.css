@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
+ 
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Poppins'
+}
+h1, h2, h3, h4, h5, h6{
+    padding-bottom:0.5rem;
+}
+li{
+    font-size:14px;
+}
+ p{
+     font-size:14px;
+     padding-bottom:0.5rem;
+ }
+.background-height{
+    height:250px
+}
+section{
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+@screen md{
+    .background-height{
+        height:500px
+    }
+    h1, h2, h3, h4, h5, h6{
+        padding-bottom:2rem;
+    }
+    li{
+        font-size:16px;
+    }
+    p{
+        font-size:16px;
+        padding-bottom:2rem;
+    }
+    section{
+        padding-top:4rem;
+        padding-bottom: 4rem;
+    }
+}
