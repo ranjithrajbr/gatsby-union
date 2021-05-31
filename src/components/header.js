@@ -4,7 +4,9 @@ import {Link} from "gatsby"
 
 function Header() {
   const [isActive, toggleMenu] = useState(false)
-
+  function toggle(){
+    toggleMenu (prevState => !prevState)
+  }
   return (
     <header className="">
       <nav className="container flex flex-col lg:flex-row lg:justify-around lg:flex-nowrap">
@@ -20,7 +22,7 @@ function Header() {
           <div>
             <button
               className="focus:outline-none lg:hidden"
-              onClick={() => toggleMenu(!isActive)}
+              onClick={toggle}
             >
               <svg fill="currentColor" viewBox="0 0 20 20" className="w-6 h-6">
                 {isActive ? (
@@ -40,7 +42,7 @@ function Header() {
             </button>
           </div>
         </div>
-        <div className="container hidden lg:flex lg:flex-grow lg:justify-between">
+        <div className={`container lg:flex lg:flex-grow lg:justify-between ${isActive ? 'block' :'hidden'}`}>
           <ul className="lg:flex lg:justify-center lg:items-center lg:flex-1">
             <li className="p-3 font-semibold"><Link to="/">Home</Link></li>
             <li className="p-3 font-semibold"><Link to="/tribe">Our Tribe</Link></li>
@@ -49,7 +51,7 @@ function Header() {
           </ul>
           <div className="lg:flex lg:justify-center lg:items-center">
           <button className="p-2 font-bold border-2 border-black hover:border-transparent hover:bg-black hover:text-white">
-            Helpline
+            <Link to="/contact">Helpline</Link>
           </button>
           </div>
         </div>

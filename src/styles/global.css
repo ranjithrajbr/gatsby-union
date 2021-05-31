@@ -7,6 +7,10 @@
     box-sizing: border-box;
     margin:0;
 }
+.covid{
+    width:400px;
+    height:auto;
+}
 body{
     min-height: 100vh;
     font-family: 'Poppins'

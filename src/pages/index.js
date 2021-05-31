@@ -1,15 +1,39 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import { StaticImage } from "gatsby-plugin-image"
-import background from "../images/home/banner.jpg"
+import {Link} from "gatsby"
+import { graphql, useStaticQuery } from 'gatsby'
+import { convertToBgImage } from "gbimage-bridge"
+import BackgroundImage from 'gatsby-background-image'
+import { getImage,StaticImage } from "gatsby-plugin-image"
+//import background from "../images/home/banner.jpg"
 import Join from "../components/join"
 //import * as styles from "../components/Index.module.css"
 
-const IndexPage = () => (
-  <Layout>
-    <div
-      style={{ backgroundImage: `url(${background})`, backgroundSize: "cover" }}
-      className="w-full background-height"
+const IndexPage = () => {
+  const { placeholderImage } = useStaticQuery(
+    graphql`
+      query {
+        placeholderImage: file(relativePath: { eq: "home/banner.jpg" }) {
+          childImageSharp {
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
+        }
+      }
+    `
+  )
+  const image = getImage(placeholderImage)
+
+  // Use like this:
+  const bgImage = convertToBgImage(image)
+
+  return (<Layout>
+    <BackgroundImage
+      tag = "div"
+      {...bgImage}
+      className="w-full bg-cover background-height"
     >
       <div className="container h-full">
         <div className="flex items-center h-full">
@@ -21,14 +45,14 @@ const IndexPage = () => (
               Lorem ipsum dolor sit amet consectetur adipisicing.
             </p>
             <button className="p-1 font-bold border-2 border-black lg:text-lg lg:p-3 hover:border-transparent hover:bg-black hover:text-white">
-              Helpline
+            <Link to="/contact">Helpline</Link>
             </button>
            
           </div>
           <div>{/* Add some image */}</div>
         </div>
       </div>
-    </div>
+    </BackgroundImage>
     <section className="container">
       <div className="flex flex-col items-center justify-center lg:flex-row">
         <StaticImage
@@ -74,5 +98,5 @@ const IndexPage = () => (
       <Join/>
   </Layout>
 )
-
+  }
 export default IndexPage

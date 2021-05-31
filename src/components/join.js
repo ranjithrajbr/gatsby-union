@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "gatsby"
 
 const Join = () => (
     <section className="bg-black">
@@ -7,7 +8,7 @@ const Join = () => (
         Make a difference and join as a volunteer today!{" "}
       </h2>
       <button className="p-2 mt-3 text-xs font-normal text-white uppercase border border-white md:p-3 md:text-xl hover:border-transparent hover:bg-white hover:text-black">
-        Join now
+        <Link to="/contact">Join now</Link>
       </button>
     </div>
   </section>
