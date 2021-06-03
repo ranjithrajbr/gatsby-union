@@ -28,6 +28,13 @@ li{
 .background-height{
     height:250px
 }
+.blog-container{
+    width:300px;
+    height:300px;
+}
+.single-post{
+    width:200px;
+}
 section{
     padding-top:2rem;
     padding-bottom: 2rem;

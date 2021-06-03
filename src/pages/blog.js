@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import background from "../images/about/about.jpg"
+import Stackblog from "../components/stackblog"
 const Blog = () => (
   <Layout>
       <div
@@ -22,11 +23,9 @@ const Blog = () => (
         </div>
       </div>
     </div>
-    <section className="container">
-      <div className="flex items-center justify-center w-full h-full">
-        <h1 className="text-xl font-semibold text-center md:text-4xl">
-          Coming Soon!!
-        </h1>
+    <section className="bg-gray-200">
+      <div className="container grid grid-cols-3 gap-4">
+        <Stackblog/>
       </div>
     </section>
   </Layout>
