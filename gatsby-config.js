@@ -20,8 +20,23 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `blog`,
-        path: `${__dirname}/src/blog/`,
+        path: `${__dirname}/content/blog/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/assets`,
+        name: 'images',
       },
     },
     `gatsby-transformer-sharp`,
@@ -41,17 +56,29 @@ module.exports = {
     },
     `gatsby-plugin-gatsby-cloud`,
     `gatsby-plugin-postcss`,
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-plugin-netlify-cms-paths`,
+            options: {
+              cmsConfig: `/static/admin/config.yml`,
+            },
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
           `Poppins`,
-          `source sans pro\:300i,400i,500i,600i,700i` // you can also specify font weights and styles
+          `source sans pro\:300i,400i,500i,600i,700i`, // you can also specify font weights and styles
         ],
-        display: 'swap'
-      }
-    }
+        display: "swap",
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
