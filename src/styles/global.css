@@ -25,6 +25,20 @@ li{
      font-size:14px;
      padding-bottom:0.5rem;
  }
+ .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
 .background-height{
     height:250px
 }
