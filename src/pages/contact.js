@@ -1,10 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
+import BreadCrumb from "../components/breadcrumb"
+
 //import { Link } from "gatsby"
 const Contact = () => {
   return(
   <Layout>
+    <BreadCrumb name="Contact us"/>
     <section className="container">
       <div className="flex flex-col md:flex-row">
         <div className="flex-1 md:px-8">

@@ -42,12 +42,15 @@ function Header() {
             </button>
           </div>
         </div>
-        <div className={`container lg:flex lg:flex-grow lg:justify-between ${isActive ? 'block' :'hidden'}`}>
+        <div className={`lg:flex lg:flex-grow lg:justify-between ${isActive ? 'block' :'hidden'}`}>
           <ul className="lg:flex lg:justify-center lg:items-center lg:flex-1">
             <li className="p-3 font-semibold"><Link to="/">Home</Link></li>
+            <li className="p-3 font-semibold"><Link to="/about">About Us</Link></li>
             <li className="p-3 font-semibold"><Link to="/tribe">Our Tribe</Link></li>
             <li className="p-3 font-semibold"><Link to="/covid">Covid Management</Link></li>
+            <li className="p-3 font-semibold"><Link to="/projects">Our Project</Link></li> 
             <li className="p-3 font-semibold"><Link to="/blog">Blogs</Link></li>
+            <li className="p-3 font-semibold"><Link to="/contact">Contact</Link></li>
           </ul>
           <div className="lg:flex lg:justify-center lg:items-center">
           <button className="p-2 font-bold border-2 border-black hover:border-transparent hover:bg-black hover:text-white">
