@@ -1,56 +1,15 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import { Link } from "gatsby"
-import { graphql, useStaticQuery } from "gatsby"
-import { convertToBgImage } from "gbimage-bridge"
-import BackgroundImage from "gatsby-background-image"
-import { getImage, StaticImage } from "gatsby-plugin-image"
+//import { useStaticQuery, graphql } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 //import background from "../images/home/banner.jpg"
 import Join from "../components/join"
 //import * as styles from "../components/Index.module.css"
 
 const IndexPage = () => {
-  const { placeholderImage } = useStaticQuery(
-    graphql`
-      query {
-        placeholderImage: file(relativePath: { eq: "home/banner.jpg" }) {
-          childImageSharp {
-            gatsbyImageData(placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
-          }
-        }
-      }
-    `
-  )
-  const image = getImage(placeholderImage)
-
-  // Use like this:
-  const bgImage = convertToBgImage(image)
 
   return (
     <Layout>
-      <BackgroundImage
-        tag="div"
-        {...bgImage}
-        className="w-full bg-cover background-height"
-      >
-        <div className="container h-full">
-          <div className="flex items-center h-full">
-            <div className="">
-              <h1 className="text-xl font-semibold md:text-4xl lg:text-6xl">
-                We are the Union
-              </h1>
-              <p className="lg:text-lg">
-                Uniting people from various walks of life to work together for a
-                better future
-              </p>
-              <button className="p-1 font-bold border-2 border-black lg:text-lg lg:p-3 hover:border-transparent hover:bg-black hover:text-white">
-                <Link to="/contact">Get Involved</Link>
-              </button>
-            </div>
-            <div>{/* Add some image */}</div>
-          </div>
-        </div>
-      </BackgroundImage>
       <section className="container">
         <div className="flex flex-col items-center justify-center md:py-3 lg:flex-row">
           <div className="flex-1 md:px-4">
