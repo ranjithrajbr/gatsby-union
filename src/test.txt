@@ -1,0 +1,20 @@
+const { placeholderImage } = useStaticQuery(
+    graphql`
+      query {
+        placeholderImage: allFile(
+          filter: {extension: {regex: "/(jpg)|(jpeg)|(png)/"}, relativePath: {eq: "gatsby-astronaut.png"}}
+        ) {
+          images:edges {
+            node {
+              childImageSharp {
+                gatsbyImageData(
+                  placeholder: BLURRED
+                  formats: [AUTO, WEBP, AVIF]
+                )
+              }
+            }
+          }
+        }
+      }
+    `
+  )
