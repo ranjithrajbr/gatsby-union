@@ -41,7 +41,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <Slider autoplay={3000} >
+      <Slider autoplay={3000}>
         {content.map((item, index) => {
           return (
             <div
@@ -56,7 +56,7 @@ const IndexPage = () => {
                       <h1 className="text-xl font-semibold md:text-4xl lg:text-6xl">
                         {item.title}
                       </h1>
-                      <p className="lg:text-lg">
+                      <p className="text-center lg:text-lg lg:text-left">
                         {item.description}
                       </p>
                       <button className="p-1 font-bold uppercase border-2 border-white lg:text-lg lg:p-3 hover:border-transparent hover:bg-white hover:text-black">
