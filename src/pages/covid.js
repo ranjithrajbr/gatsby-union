@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import BreadCrumb from "../components/breadcrumb"
+import cgif from "../images/gifs/covid.gif"
 //import {  Link } from "gatsby"
 import Slider from "react-animated-slider"
 import "react-animated-slider/build/horizontal.css"
@@ -11,7 +11,14 @@ import pic4 from "../images/covid/two.jpeg"
 const Covid = () => {
     return (
         <Layout>
-      <BreadCrumb name="covid management" />
+      <section style={{backgroundColor:'#00c0c9'}}>
+        <div className="container flex items-center justify-between">
+          <h1 className="text-2xl font-semibold text-white uppercase md:text-6xl">
+            covid management
+          </h1>
+          <img className="w-20 h-20 md:w-44 md:h-44" src={cgif} alt="Otter dancing with a fish" />
+        </div>
+      </section>
       <section className="py-0">
         <div className="relative flex flex-col md:flex-row">
           <div className="flex-1 px-3 py-4 md:px-10 md:pt-10">

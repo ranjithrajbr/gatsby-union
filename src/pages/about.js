@@ -1,17 +1,18 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import BreadCrumb from "../components/breadcrumb"
-//import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-//import background from "../images/home/banner.jpg"
-import Join from "../components/join"
-//import * as styles from "../components/Index.module.css"
-
+import agif from "../images/gifs/about.gif"
 const About = () => {
-
   return (
     <Layout>
-    <BreadCrumb name="about us"/>
+    <section style={{backgroundColor:'#007e35'}}>
+        <div className="container flex items-center justify-between">
+          <h1 className="text-2xl font-semibold text-white uppercase md:text-6xl">
+            About us
+          </h1>
+          <img className="w-20 h-20 md:w-44 md:h-44" src={agif} alt="Otter dancing with a fish" />
+        </div>
+      </section>
       <section className="container">
         <div className="flex flex-col items-center justify-center md:py-3 lg:flex-row">
           <div className="flex-1 md:px-4">
@@ -65,8 +66,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      <Join />
     </Layout>
   )
 }

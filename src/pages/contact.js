@@ -1,12 +1,18 @@
 import React from "react"
 import Layout from "../components/layout"
-import BreadCrumb from "../components/breadcrumb"
-
+import cogif from "../images/gifs/contact.gif"
 //import { Link } from "gatsby"
 const Contact = () => {
   return (
     <Layout>
-      <BreadCrumb name="Contact us" />
+      <section style={{backgroundColor:'#6ba5ca'}}>
+        <div className="container flex items-center justify-between">
+          <h1 className="text-2xl font-semibold text-white uppercase md:text-6xl">
+            contact us
+          </h1>
+          <img className="w-20 h-20 md:w-44 md:h-44" src={cogif} alt="Otter dancing with a fish" />
+        </div>
+      </section>
       <section className="container">
         <div className="text-center">
           <p>

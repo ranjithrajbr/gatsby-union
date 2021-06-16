@@ -1,0 +1,51 @@
+[
+    {
+        "name":"Anup Devaraja",
+       "image":"/team/AnupDevaraja.jpg"
+    },
+    {
+        "name":"Arjun Chaddha",
+       "image":"/team/ArjunChaddha.jpg"
+    },
+    {
+        "name":"Dhruv Bijoor",
+       "image":"/team/DhruvBijoor.jpg"
+    },
+    {
+        "name":"Elton Brandon ",
+       "image":"/team/EltonBrandon.jpg"
+    },
+    {
+        "name":"Kaira Sachdev ",
+       "image":"/team/KairaSachdev.jpg"
+    },
+    {
+        "name":"Lalitha Shree",
+       "image":"/team/LalithaShree.jpg"
+    },
+    {
+        "name":"Mukund Muthanna",
+       "image":"/team/Mukund.jpg"
+    },
+    {
+        "name":"Paree Punnj",
+       "image":"/team/PareePunnj.jpg"
+    },
+    {
+        "name":"Prerana Samat",
+       "image":"/team/PreranaSamat.jpg"
+    },
+    {
+        "name":"Shreya Batra",
+       "image":"/team/ShreyaBatra.jpg"
+    },
+    {
+        "name":"Soumya Bhasin",
+       "image":"/team/Soumya.jpg"
+    },
+    {
+        "name":"Zumair Khaja ",
+       "image":"/team/ZumairKhaja.jpg"
+    }
+   
+]

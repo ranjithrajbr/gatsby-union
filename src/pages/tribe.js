@@ -1,13 +1,21 @@
 import React from "react"
 import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
-import BreadCrumb from "../components/breadcrumb"
+import tgif from "../images/gifs/tribe.gif"
+import TeamCard from "../components/teamcard"
 //import { Link } from "gatsby"
 
 const Tribe = () => {
   return (
     <Layout>
-      <BreadCrumb name="our tribe" />
+      <section style={{backgroundColor:'#fd5555'}}>
+        <div className="container flex items-center justify-between">
+          <h1 className="text-2xl font-semibold text-white uppercase md:text-6xl">
+            our tribe
+          </h1>
+          <img className="w-20 h-20 md:w-44 md:h-44" src={tgif} alt="Otter dancing with a fish" />
+        </div>
+      </section>
       
       <section className="container">
       <div className="flex flex-col items-center justify-center">
@@ -55,9 +63,9 @@ const Tribe = () => {
             Our Team
           </h1>
         </div>
-        <div className="grid md:grid-cols-4">
-          
-        </div>
+       
+          <TeamCard/>
+        
 
       </section>
     </Layout>

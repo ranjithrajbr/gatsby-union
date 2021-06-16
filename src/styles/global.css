@@ -66,6 +66,10 @@ section{
     padding-top:2rem;
     padding-bottom: 2rem;
 }
+.team-card{
+    height:200px;
+    width:170px;
+}
 @screen md{
     .background-height{
         height:500px

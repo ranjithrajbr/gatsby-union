@@ -49,7 +49,6 @@ function Header() {
             <li className="p-3 font-semibold"><Link to="/tribe">Our Tribe</Link></li>
             <li className="p-3 font-semibold"><Link to="/covid">Covid Management</Link></li>
             <li className="p-3 font-semibold"><Link to="/projects">Our Project</Link></li> 
-            <li className="p-3 font-semibold"><Link to="/blog">Blogs</Link></li>
             <li className="p-3 font-semibold"><Link to="/contact">Contact</Link></li>
           </ul>
           <div className="lg:flex lg:justify-center lg:items-center">

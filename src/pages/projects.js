@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 //import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 //import background from "../images/home/banner.jpg"
-import Join from "../components/join"
 import pgif from "../images/gifs/cproject.gif"
 //import * as styles from "../components/Index.module.css"
 
@@ -11,13 +10,13 @@ const Project = () => {
   return (
     <Layout>
       <section className="bg-u-yellow ">
-    <div className="container flex justify-between py-10">
-    <h1 className="text-xl font-semibold text-white uppercase md:text-5xl">
-      project
-    </h1>
-    <img style={{width:'100px', height:'100px'}} src={pgif} alt="Otter dancing with a fish" />
-    </div>
-  </section>
+        <div className="container flex items-center justify-between">
+          <h1 className="text-2xl font-semibold text-white uppercase md:text-6xl">
+            project
+          </h1>
+          <img className="w-20 h-20 md:w-44 md:h-44" src={pgif} alt="Otter dancing with a fish" />
+        </div>
+      </section>
       <section className="container">
         <div className="flex flex-col items-center justify-center md:py-3 lg:flex-row">
           <div className="flex-1 md:px-4">
@@ -92,8 +91,6 @@ const Project = () => {
           </div>
         </div>
       </section>
-
-      <Join />
     </Layout>
   )
 }
