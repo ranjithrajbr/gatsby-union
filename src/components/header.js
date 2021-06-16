@@ -8,7 +8,7 @@ function Header() {
     toggleMenu (prevState => !prevState)
   }
   return (
-    <header className="">
+    <header className="lg:border-b">
       <nav className="container flex flex-col lg:flex-row lg:justify-around lg:flex-nowrap">
         <div className="flex items-center justify-between">
           <div className="">

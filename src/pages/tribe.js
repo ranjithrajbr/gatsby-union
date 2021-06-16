@@ -1,18 +1,16 @@
 import React from "react"
 import Layout from "../components/layout"
-import { StaticImage} from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image"
 import BreadCrumb from "../components/breadcrumb"
 //import { Link } from "gatsby"
 
-import Join from "../components/join"
 const Tribe = () => {
-  
-
   return (
     <Layout>
-     <BreadCrumb name="our tribe"/>
+      <BreadCrumb name="our tribe" />
+      
       <section className="container">
-        <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center">
           <div className="flex-1">
             <p className="text-center md:text-2xl">
               We are only as strong as our team! Each person in our tribe has a
@@ -20,14 +18,48 @@ const Tribe = () => {
               difference contributing to a better future.
             </p>
           </div>
-          <StaticImage
-            className="flex-1 w-16 h-auto md:w-full"
-            src="../images/about/tribe.jpg"
-            alt="image"
-          />
+        </div>
+        <div className="py-10 md:py-16">
+          <h1 className="text-xl font-semibold text-center uppercase md:text-3xl">
+            Our founders
+          </h1>
+        </div>
+        <div className="flex flex-col md:py-8 md:flex-row">
+          <div className="flex items-center justify-center flex-1 pb-4 md:block">
+            <StaticImage className="w-3/6 md:w-4/5 lg:w-3/6" src="../images/team/razi.jpg" alt="team" />
+          </div>
+          <div className="flex-1">
+            <p>Razi Abbas is the one stop solution for all your crazy, ground-breaking ideas. Driven by the concept of diffusing solutions through communities, Razi is one of the pillars holding The Union leading the way for the team. He has dedicated more than a year towards covid management and continues to relentlessly pursue and promote a proactive approach towards this cause. A friend, a confidante, not the best with movie choices but the best at sharing exciting experiences. He can be found making an SoP for the next big idea.</p>
+          </div>
+        </div>
+        <div className="flex flex-col md:py-8 md:flex-row">
+          <div className="flex items-center justify-center flex-1 pb-4 md:block">
+            <StaticImage className="w-3/6 md:w-4/5 lg:w-3/6" src="../images/team/Tariq.jpg" alt="team" />
+          </div>
+          <div className="flex-1">
+            <p>Tariq Sheriff is the co-founder of The Union. He is true leader in every sense and is a visionary. He has great interpersonal skills and can strike up a conversation on just about anything. His life is like a book and every chapter is so interesting that your curiosity always gets the better of you. He is a companion we all reach out to and is very dependable. Creativity soars through his veins apart from the adamantium pumped in. There is much to learn from Tariq, and we look up to his guidance.</p>
+          </div>
+        </div>
+        <div className="flex flex-col md:py-8 md:flex-row">
+          <div className="flex items-center justify-center flex-1 pb-4 md:block">
+            <StaticImage className="md:w-4/5 lg:w-3/6" src="../images/team/Tariq.jpg" alt="team" />
+          </div>
+          <div className="flex-1">
+            <p>Yohann John is known for his frankness, honesty, optimism and open-mindedness. There's no one else like him and his addition to the founding team has helped The Union in approaching and working with newer organisations. Fun fact: The only person who can beat Narendra Modi is our very own John’s Sarkar.</p>
+          </div>
         </div>
       </section>
-      <Join />
+      <section className="container">
+      <div className="py-10 md:py-16">
+          <h1 className="text-xl font-semibold text-center uppercase md:text-3xl">
+            Our Team
+          </h1>
+        </div>
+        <div className="grid md:grid-cols-4">
+          
+        </div>
+
+      </section>
     </Layout>
   )
 }
