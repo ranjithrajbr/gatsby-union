@@ -42,10 +42,7 @@ li{
 .background-height{
     height:250px
 }
-.slide{
-    background-position: center;
-    background-size:cover;
-}
+
 .blog-container{
     width:300px;
     height:300px;
@@ -53,8 +50,8 @@ li{
 .single-post{
     width:200px;
 }
-.slider{
-    height:400px !important;
+.slider-slum{
+    height:auto
 }
 .previousButton svg polygon{
    display: none;
@@ -74,6 +71,9 @@ section{
     .background-height{
         height:500px
     }
+    .slider-slum{
+        height:450px !important
+    }
     h1, h2, h3, h4, h5, h6{
         padding-bottom:2rem;
     }
@@ -81,9 +81,7 @@ section{
         font-size:16px;
     }
     
-    .slider{
-        height:500px !important;
-    }
+    
     p{
         font-size:16px;
         padding-bottom:2rem;
@@ -101,5 +99,8 @@ section{
       .nextButton svg polygon{
           fill:#fff !important;
           display:block;
+        }
+        .slider-slum{
+            height:500px !important
         }
 }

@@ -34,7 +34,7 @@ const IndexPage = () => {
     <Layout>
       <section className="py-0">
         <div className="relative flex flex-col lg:flex-row">
-          <div className="flex-1 px-8 lg:px-0 lg:pl-16">
+          <div className="flex-1 px-8 lg:px-0 lg:pl-36 xl:pl-40">
             {content.map((item, index) => {
               return (
               <div key={index} className="flex flex-col py-10 lg:py-0 lg:justify-center lg:w-3/5 lg:h-screen">
@@ -44,15 +44,15 @@ const IndexPage = () => {
                 <p className="lg:text-lg lg:text-left">
                   {item.description}
                 </p>
-                <button style={{backgroundColor:item.color}} className="p-1 text-sm font-bold text-white uppercase w-36 md:w-1/4 lg:w-2/5 lg:text-lg lg:p-2">
+                <button style={{backgroundColor:item.color}} className="p-1 text-sm font-bold text-white uppercase rounded-lg w-36 md:w-1/4 lg:w-3/6 lg:text-lg lg:p-2">
                   <Link to={item.link}>{item.button}</Link>
                 </button>
               </div>
               )
             })}
           </div>
-          <div className="sticky top-0 flex-1 block h-screen md:flex md:justify-end">
-          <StaticImage className="h-screen "  src="../images/homebanner.png" alt="cover" />
+          <div className="sticky top-0 flex-1 block w-full h-screen md:flex md:justify-end">
+          <StaticImage className="w-full h-screen "  src="../images/homebanner.png" alt="cover" />
           </div>
         </div>
       </section>

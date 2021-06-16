@@ -5,7 +5,7 @@ import agif from "../images/gifs/about.gif"
 const About = () => {
   return (
     <Layout>
-    <section style={{backgroundColor:'#007e35'}}>
+      <section style={{ backgroundColor: '#007e35' }}>
         <div className="container flex items-center justify-between">
           <h1 className="text-2xl font-semibold text-white uppercase md:text-6xl">
             About us
@@ -23,7 +23,7 @@ const About = () => {
             />
           </div>
           <div className="flex-1 md:px-4">
-            <h1 className="text-xl font-semibold text-center md:text-3xl">
+            <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
               Who we are
             </h1>
             <p className="text-center md:text-justify lg:text-left">
@@ -44,15 +44,8 @@ const About = () => {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center md:py-3 lg:flex-row">
-        <div className="flex-1 md:px-4">
-            <StaticImage
-              className="flex-1 w-52 md:w-full"
-              src="../images/home/what.jpg"
-              alt="image"
-            />
-          </div>
           <div className="flex-1 md:px-4">
-            <h1 className="text-xl font-semibold text-center md:text-3xl">
+            <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
               What we do
             </h1>
             <p className="text-center lg:text-left md:text-justify">
@@ -63,6 +56,13 @@ const About = () => {
               helpline to provide help to those in need. Our volunteers go out
               of their way to provide help in any way they can.{" "}
             </p>
+          </div>
+          <div className="flex-1 md:px-4">
+            <StaticImage
+              className="flex-1 w-52 md:w-full"
+              src="../images/home/what.jpg"
+              alt="image"
+            />
           </div>
         </div>
       </section>

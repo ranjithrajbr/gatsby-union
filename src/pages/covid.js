@@ -2,12 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import cgif from "../images/gifs/covid.gif"
 //import {  Link } from "gatsby"
-import Slider from "react-animated-slider"
-import "react-animated-slider/build/horizontal.css"
-import pic1 from "../images/covid/3.jpeg"
-import pic2 from "../images/covid/4.jpeg"
-import pic3 from "../images/covid/5.jpeg"
-import pic4 from "../images/covid/two.jpeg"
+import {StaticImage} from "gatsby-plugin-image"
+
 const Covid = () => {
     return (
         <Layout>
@@ -19,9 +15,9 @@ const Covid = () => {
           <img className="w-20 h-20 md:w-44 md:h-44" src={cgif} alt="Otter dancing with a fish" />
         </div>
       </section>
-      <section className="py-0">
+      <section className="container">
         <div className="relative flex flex-col md:flex-row">
-          <div className="flex-1 px-3 py-4 md:px-10 md:pt-10">
+          <div className="flex-1">
             <p className="text-center md:text-justify">
               At the Union, we firmly believe that every human is given equal
               access to resources. Our mission is to help bridge the
@@ -61,13 +57,33 @@ const Covid = () => {
               appointment at the centre closest to you.
             </p>
           </div>
-          <div className="sticky top-0 flex-1 h-screen md:px-8">
-            <Slider autoplay={3000}>
-             <img src={pic1} alt="covid"/>
-             <img src={pic2} alt="covid"/>
-             <img src={pic3} alt="covid"/>
-             <img src={pic4} alt="covid"/>
-            </Slider>
+          <div className="flex-1 md:px-8">
+           <div className="grid grid-cols-2">
+             <div>
+               <StaticImage src="../images/covid/3n.jpg" alt="covid"/>
+             </div>
+             <div>
+
+             </div>
+             <div>
+              
+             </div>
+             <div>
+             <StaticImage src="../images/covid/2.jpg" alt="covid"/>
+             </div>
+             <div>
+             <StaticImage src="../images/covid/4.jpeg" alt="covid"/>
+             </div>
+             <div>
+
+             </div>
+             <div>
+              
+             </div>
+             <div>
+             <StaticImage src="../images/covid/5n.jpg" alt="covid"/>
+             </div>
+           </div>
           </div>
         </div>
       </section> 
