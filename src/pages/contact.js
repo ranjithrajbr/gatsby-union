@@ -15,15 +15,15 @@ const Contact = () => {
       </section>
       <section className="container">
         <div className="text-center">
-          <p>
-            Let’s beat Covid together! Call our HOPE helpline on <span className="font-bold md:text-xl">080-47186868</span> for any assistance. We promise to do our best to ensure you get the help you need.
-          </p>
           <p className="md:text-2xl">
+            Let’s beat Covid together! Call our HOPE helpline on <span className="font-bold md:text-3xl">080-47186868</span> for any assistance. We promise to do our best to ensure you get the help you need.
+          </p>
+          <p >
             You have a role to play! Together we can build a world where everyone has access to the resources they need. Join us as a volunteer and help us grow our family today!
           </p>
         </div>
       </section>
-      <section className="container">
+      <section className="container md:py-2">
         <div className="p-3 border shadow-md md:p-5">
           <form name="Contact Form" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="Contact Form" />
@@ -52,7 +52,7 @@ const Contact = () => {
             </div>
             <div className="py-5">
               <label className="mb-3 text-xs text-black text-opacity-50">What do you do?*</label>
-              <select className="block w-full py-3 border-b outline-none" name="role">
+              <select className="block w-full py-3 border-b outline-none" name="Designation">
                 <option value="Iam a student">I am a student</option>
                 <option value="Iam an entrepreneur">I am an entrepreneur</option>
                 <option value="Iam a working individual"> I am a working individual</option>
@@ -65,7 +65,7 @@ const Contact = () => {
             </div>
             <div className="py-5">
               <label className="mb-3 text-xs text-black text-opacity-50">What would you like to do with us?*</label>
-              <select className="block w-full py-3 border-b outline-none" name="role">
+              <select className="block w-full py-3 border-b outline-none" name="Role">
                 <option value="Volunteer with The Union">Volunteer with The Union</option>
                 <option value="Collaborate with The Union">Collaborate with The Union</option>
                 <option value="Get Assistance from The Union"> Get Assistance from The Union</option>

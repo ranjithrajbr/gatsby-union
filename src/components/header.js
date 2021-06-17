@@ -8,7 +8,7 @@ function Header() {
     toggleMenu (prevState => !prevState)
   }
   return (
-    <header className="lg:border-b">
+    <header className="sticky top-0 z-10 bg-white lg:border-b">
       <nav className="container flex flex-col lg:flex-row lg:justify-around lg:flex-nowrap">
         <div className="flex items-center justify-between">
           <div className="">
@@ -44,17 +44,15 @@ function Header() {
             </button>
           </div>
         </div>
-        <div className={`lg:flex lg:flex-grow lg:justify-between ${isActive ? 'block' :'hidden'}`}>
+        <div className={`lg:flex p-4 lg:p-0 lg:flex-grow lg:justify-between ${isActive ? 'block' :'hidden'}`}>
           <ul className="lg:flex lg:justify-center lg:items-center lg:flex-1">
-           
             <li className="p-3 font-semibold"><Link to="/about">About Us</Link></li>
             <li className="p-3 font-semibold"><Link to="/tribe">Our Tribe</Link></li>
-            <li className="p-3 font-semibold"><Link to="/covid">Covid Management</Link></li>
             <li className="p-3 font-semibold"><Link to="/projects">Our Project</Link></li> 
-           
+            <li className="p-3 font-semibold"><Link to="/covid">Covid Management</Link></li>
           </ul>
-          <div className="lg:flex lg:justify-center lg:items-center">
-          <button className="p-2 font-bold uppercase border-2 border-black rounded-lg hover:border-transparent hover:bg-black hover:text-white">
+          <div className="pl-2 lg:pl-0 lg:flex lg:justify-center lg:items-center">
+          <button className="p-2 text-xs font-bold uppercase border-2 border-black rounded-lg hover:border-transparent hover:bg-black hover:text-white">
             <Link to="/contact">Contact us</Link>
           </button>
           </div>

@@ -40,7 +40,6 @@ const Project = () => {
              <img src="/slum/2.jpg" alt="slumRehabilitation"/>
              <img src="/slum/1.jpg" alt="slumRehabilitation"/>
              <img src="/slum/6.jpg" alt="slumRehabilitation"/>
-             <img src="/slum/6.jpg" alt="slumRehabilitation"/>
            </Slider>
           </div>
         </div>
