@@ -36,7 +36,7 @@ const Tribe = () => {
         </div>
         <div className="flex flex-col py-8 md:flex-row">
           <div className="flex items-center justify-center flex-1 pb-4">
-            <StaticImage className="w-3/6 md:w-4/5 lg:w-3/6" src="../images/team/Tariq.jpg" alt="team" />
+            <StaticImage className="w-3/6 md:w-4/5 lg:w-3/6" src="../images/Tariq.jpg" alt="team" />
           </div>
           <div className="flex-1">
           <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
@@ -47,7 +47,7 @@ const Tribe = () => {
         </div>
         <div className="flex flex-col py-8 md:flex-row">
           <div className="flex items-center justify-center flex-1 pb-4 ">
-            <StaticImage className="w-3/6 md:w-4/5 lg:w-3/6" src="../images/team/razi.jpg" alt="team" />
+            <StaticImage className="w-3/6 md:w-4/5 lg:w-3/6" src="../images/razi.jpg" alt="team" />
           </div>
           <div className="flex-1">
           <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">

@@ -51,8 +51,8 @@ const IndexPage = () => {
               )
             })}
           </div>
-          <div className="sticky top-0 flex-1 block w-full h-screen lg:top-28 md:flex md:justify-end">
-          <StaticImage className="w-full h-screen "  src="../images/homebanner.png" alt="cover" />
+          <div className="sticky top-0 flex-1 block h-screen lg:top-28 md:flex md:justify-end">
+          <StaticImage className="h-screen"  src="../images/homebanner.png" alt="cover" />
           </div>
         </div>
       </section>

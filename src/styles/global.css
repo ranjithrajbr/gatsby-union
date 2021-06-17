@@ -72,7 +72,7 @@ section{
         height:500px
     }
     .slider-slum{
-        height:450px !important
+        height:auto 
     }
     h1, h2, h3, h4, h5, h6{
         padding-bottom:2rem;

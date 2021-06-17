@@ -1,11 +1,15 @@
 [
     {
         "name":"Anup Devaraja",
-       "image":"/team/AnupDevaraja.jpg"
+       "image":"/team/AnupDevaraja.jpg" 
     },
     {
         "name":"Arjun Chaddha",
        "image":"/team/ArjunChaddha.jpg"
+    },
+    {
+        "name":" Balaji Nitish",
+       "image":"/team/BalajiNitish.jpg"
     },
     {
         "name":"Dhruv Bijoor",
@@ -17,11 +21,19 @@
     },
     {
         "name":"Kaira Sachdev ",
-       "image":"/team/KairaSachdev.jpg"
+       "image":"/team/KairaSachdev.jpg" 
+    },
+    {
+        "name":"Karishma BC",
+       "image":"/team/KarishmaBC.jpg"
     },
     {
         "name":"Lalitha Shree",
-       "image":"/team/LalithaShree.jpg"
+       "image":"/team/LalithaShree.jpg" 
+    },
+    {
+        "name":"Laxmi A Somiah",
+       "image":"/team/LaxmiASomiah.jpg"
     },
     {
         "name":"Mukund M",
