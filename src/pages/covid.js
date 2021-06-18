@@ -22,7 +22,7 @@ const Covid = () => {
               Bengaluru witnessed a huge spike in cases towards mid-April 2021 which resulted in an overwhelmed system that made it difficult for the citizens of Bengaluru to gain access to medical facilities. As a solution to this, The Union intensified its approach to support the city by mobilising the youth by providing it with a platform to aid the city. Some of the activities carried out by The Union are:
             </p>
             <div className="py-2">
-              <h2 className="py-1 font-semibold text-center  md:text-left md:text-xl">Pool of Volunteers</h2>
+              <h2 className="py-1 font-semibold text-center md:text-left md:text-xl">Pool of Volunteers</h2>
               <p className="text-center md:text-justify">
                 The Union put out a call for youth volunteers on the 22nd of April 2021. The Union saw a response from 50 volunteers on day one. With consistent efforts, this number grew to over 1,000 registered volunteers with The Union. On average, The Union has over 650 active volunteers.
               </p>
@@ -108,17 +108,7 @@ const Covid = () => {
               <div>
               </div>
               <div>
-                <StaticImage src="../images/covid/8.png" alt="covid" />
-              </div>
-              <div>
-                <StaticImage className="xl:hidden" src="../images/covid/9.png" alt="covid" />
-              </div>
-              <div>
-              </div>
-              <div>
-              </div>
-              <div>
-                <StaticImage className="xl:hidden" src="../images/covid/10.png" alt="covid" />
+                <StaticImage src="../images/covid/10.png" alt="covid" />
               </div>
             </div>
           </div>

@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Slider from "react-animated-slider"
 import "react-animated-slider/build/horizontal.css"
+import {Link} from"gatsby"
 import pgif from "../images/gifs/cproject.gif"
 
 const Project = () => {
@@ -17,15 +18,18 @@ const Project = () => {
       </section>
       <section className="container lg:pr-12">
         <div className="flex flex-col items-center justify-center md:py-3 lg:flex-row">
-          <div className="flex-1 md:px-4">
+          <div className="flex-1 py-0 md:px-4 md:py-2 lg:py-0">
             <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
             Covid Management
             </h1>
             <p className="text-center md:text-justify lg:text-left">
             To cater to the needs of specific medical requirements, the Union began its mission to support the battle against Covid19. With over 700 registered volunteers, we created a helpline to meet the needs of the society. The volunteers have attended to over 33,000 calls, helping more than 8,500 Covid positive patients in India. Our volunteers and partner organisations also help with the distribution of rations in low-income areas.
             </p>
+            <button className="p-3 text-sm font-bold text-white uppercase rounded-lg bg-u-yellow ">
+            <Link to="/covid">Know more</Link>
+          </button>
           </div>
-          <div className="w-full py-4 md:w-3/4 lg:py-0 lg:flex-1 lg:w-auto">
+          <div className="w-full py-4 lg:py-0 lg:flex-1 lg:w-auto">
             <Slider className="slider">
               <img src="/covidm/1.png" alt="covidmanagement" />
               <img src="/covidm/2.png" alt="covidmanagement" />
@@ -40,7 +44,7 @@ const Project = () => {
       </section>
       <section className="container lg:pr-12">
         <div className="flex flex-col items-center justify-center md:py-3 lg:flex-row">
-          <div className="w-full py-4 md:w-3/4 lg:py-0 lg:flex-1 lg:w-auto md:px-4">
+          <div className="w-full py-4 lg:py-0 lg:flex-1 lg:w-auto md:px-4">
             <Slider className="slider">
               <img src="/clean/1.png" alt="cleanupdrive" />
               <img src="/clean/2.png" alt="cleanupdrive" />
@@ -49,7 +53,7 @@ const Project = () => {
 
             </Slider>
           </div>
-          <div className="lg:flex-1 md:px-4">
+          <div className="py-0 lg:flex-1 md:py-2 lg:py-0 md:px-4">
             <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
             Clean-Up Drive
               </h1>
@@ -69,7 +73,7 @@ const Project = () => {
             We collaborated with Unnati Skill Centre to mobilise individuals from vulnerable sections of the society who could be upskilled and placed into stable income sources.
             </p>
           </div>
-          <div className="w-full py-4 md:w-3/4 lg:py-0 lg:flex-1 lg:w-auto">
+          <div className="w-full py-4 lg:py-0 lg:flex-1 lg:w-auto">
             <Slider className="slider">
               <img src="/skill/1.png" alt="skill" />
               <img src="/skill/2.png" alt="skill" />
@@ -89,7 +93,7 @@ const Project = () => {
 
             </Slider>
           </div>
-          <div className="flex-1 md:px-4">
+          <div className="flex-1 py-0 md:py-2 lg:py-0 md:px-4">
             <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
             Dog Shelters              </h1>
             <p className="text-center lg:text-left md:text-justify">
@@ -133,7 +137,7 @@ const Project = () => {
               <img src="/slum/6.png" alt="slumRehabilitation" />
             </Slider>
           </div>
-          <div className="flex-1 md:px-4">
+          <div className="flex-1 py-0 md:py-2 lg:py-0 md:px-4">
             <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
               Slum Rehabilitation Program
             </h1>
