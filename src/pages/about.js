@@ -15,15 +15,15 @@ const About = () => {
       </section>
       <section className="container">
         <div className="flex flex-col items-center justify-center md:py-3 lg:flex-row">
-          <div className="flex-1 md:px-4">
+          <div className="flex-1 py-3 lg:py-0 md:px-4">
             <StaticImage
-              className="flex-1 w-52 md:w-full"
+              className="w-full"
               src="../images/home/homebanner.jpg"
               alt="image"
             />
           </div>
           <div className="flex-1 md:px-4 md:pt-4 lg:py-0">
-            <h1 className="text-xl font-semibold text-center md:text-left md:text-4xl">
+            <h1 className="text-2xl font-semibold text-center md:text-left md:text-4xl">
               Who we are
             </h1>
             <p className="text-center md:text-justify lg:text-left">
@@ -47,19 +47,19 @@ const About = () => {
       <section className="container">
       <div className="flex flex-col items-center justify-center md:py-3 lg:flex-row">
           <div className="flex-1 md:px-4">
-            <h1 className="text-xl font-semibold text-center md:text-left md:text-4xl">
+            <h1 className="text-2xl font-semibold text-center md:text-left md:text-4xl">
               What we do
             </h1>
             <div className="">
-              <h2 className="py-1 text-sm font-semibold text-center md:text-left md:text-md">
-                Youth community
+              <h2 className="py-1 font-semibold text-center text-md md:text-left md:text-xl">
+                Youth Community
               </h2>
               <p className="text-center md:text-left lg:py-1">
                 The aspect of the youth community is a primary pillar of The Union. Engineering and aligning the youth towards sustainable, actionable change is one of the core components of our existence.
               </p>
             </div>
             <div className="">
-              <h2 className="py-1 text-sm font-semibold text-center md:text-left md:text-md">
+              <h2 className="py-1 font-semibold text-center text-md md:text-left md:text-xl">
                 Platform for Change
               </h2>
               <p className="text-center md:text-left lg:py-1">
@@ -67,7 +67,7 @@ const About = () => {
               </p>
             </div>
             <div className="">
-              <h2 className="py-1 text-sm font-semibold text-center md:text-left md:text-md">
+              <h2 className="py-1 font-semibold text-center text-md md:text-left md:text-xl">
               Hyper Local Intervention
               </h2>
               <p className="text-center md:text-left lg:py-1">
@@ -76,7 +76,7 @@ const About = () => {
           </div>
           <div className="flex-1">
             <StaticImage
-              className="flex-1 w-52 md:w-full"
+              className="w-full"
               src="../images/home/what.jpg"
               alt="image"
             />

@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
  
+input, select {
+    background-color: #FAF3EB
+}
 body{
     background-color: #FAF3EB
 
