@@ -23,14 +23,14 @@ const Project = () => {
             Covid Management
             </h1>
             <p className="text-center md:text-justify lg:text-left">
-            To cater to the needs of specific medical requirements, the Union began its mission to support the battle against Covid19. With over 700 registered volunteers, we created a helpline to meet the needs of the society. The volunteers have attended to over 33,000 calls, helping more than 8,500 Covid positive patients in India. Our volunteers and partner organisations also help with the distribution of rations in low-income areas.
+            To cater to the needs of specific medical requirements, the Union began its mission to support the battle against Covid-19. With over 700 registered volunteers, we created a helpline to meet the needs of the society. The volunteers have attended to over 33,000 calls, helping more than 8,500 Covid-19 positive patients in India. Our volunteers and partner organisations also help with the distribution of rations in low-income areas.
             </p>
             <button className="p-3 text-sm font-bold text-white uppercase rounded-lg bg-u-yellow ">
             <Link to="/covid">Know more</Link>
           </button>
           </div>
           <div className="w-full py-4 lg:py-0 lg:flex-1 lg:w-auto">
-            <Slider className="slider">
+            <Slider className="slider slider-covid">
               <img src="/covidm/1.png" alt="covidmanagement" />
               <img src="/covidm/2.png" alt="covidmanagement" />
               <img src="/covidm/3.png" alt="covidmanagement" />
@@ -45,7 +45,7 @@ const Project = () => {
       <section className="container lg:pr-12">
         <div className="flex flex-col items-center justify-center md:py-3 lg:flex-row">
           <div className="w-full py-4 lg:py-0 lg:flex-1 lg:w-auto md:px-4">
-            <Slider className="slider">
+            <Slider className="slider slider-covid">
               <img src="/clean/1.png" alt="cleanupdrive" />
               <img src="/clean/2.png" alt="cleanupdrive" />
               <img src="/clean/3.png" alt="cleanupdrive" />
@@ -74,7 +74,7 @@ const Project = () => {
             </p>
           </div>
           <div className="w-full py-4 lg:py-0 lg:flex-1 lg:w-auto">
-            <Slider className="slider">
+            <Slider className="slider slider-covid">
               <img src="/skill/1.png" alt="skill" />
               <img src="/skill/2.png" alt="skill" />
               <img src="/skill/3.png" alt="skill" />

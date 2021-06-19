@@ -1,63 +1,67 @@
 [
     {
         "name":"Anup Devaraja",
-       "image":"/team/AnupDevaraja.jpg" 
+       "image":"/team/team/AnupDevaraja.jpg" 
     },
     {
         "name":"Arjun Chaddha",
-       "image":"/team/ArjunChaddha.jpg"
+       "image":"/team/team/ArjunChaddha.jpeg"
     },
     {
         "name":" Balaji Nitish",
-       "image":"/team/BalajiNitish.jpg"
+       "image":"/team/team/BalajiNitish.jpg"
     },
     {
         "name":"Dhruv Bijoor",
-       "image":"/team/DhruvBijoor.jpg"
+       "image":"/team/team/DhruvBijoor.jpg"
     },
     {
         "name":"Elton Brandon ",
-       "image":"/team/EltonBrandon.jpg"
+       "image":"/team/team/EltonBrandon.jpg"
     },
     {
         "name":"Kaira Sachdev ",
-       "image":"/team/KairaSachdev.jpg" 
+       "image":"/team/team/KairaSachdev.jpg" 
     },
     {
         "name":"Karishma BC",
-       "image":"/team/KarishmaBC.jpg"
+       "image":"/team/team/KarishmaBC.jpg"
     },
     {
         "name":"Lalitha Shree",
-       "image":"/team/LalithaShree.jpg" 
+       "image":"/team/team/LalithaShree.jpg" 
     },
     {
         "name":"Laxmi A Somiah",
-       "image":"/team/LaxmiASomiah.jpg"
+       "image":"/team/team/LaxmiAS.jpg"
     },
     {
         "name":"Mukund M",
-       "image":"/team/Mukund.jpg"
+       "image":"/team/team/Mukund.jpg"
     },
     {
         "name":"Paree Punnj",
-       "image":"/team/PareePunnj.jpg"
+       "image":"/team/team/PareePunnj.jpg"
     },
     {
-        "name":"Prerana Samat",
-       "image":"/team/PreranaSamat.jpg"
+        "name":"Prerana Samant",
+       "image":"/team/team/prerana.jpeg"
     },
     {
         "name":"Shreya Batra",
-       "image":"/team/ShreyaBatra.jpg"
+       "image":"/team/team/ShreyaBatra.jpg"
+    },
+    {
+        "name":"Shreyas Pandit",
+       "image":"/team/team/ShreyasPandit.png"
     },
     {
         "name":"Soumya Bhasin",
-       "image":"/team/Soumya.jpg"
+       "image":"/team/team/Soumya.jpg"
     },
     {
         "name":"Zumair Khaja ",
-       "image":"/team/ZumairKhaja.jpg"
+       "image":"/team/team/ZumairKhaja.jpg"
     }
    
 ]

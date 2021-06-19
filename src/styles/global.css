@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
  
+body{
+    background-color: #FAF3EB
+
+}
  
 *{
     box-sizing: border-box;
@@ -53,6 +57,9 @@ li{
 .slider-slum{
     height:auto
 }
+.slider-covid{
+    height:250px !important
+}
 .previousButton svg polygon{
    display: none;
   }
@@ -73,6 +80,9 @@ section{
     }
     .slider-slum{
         height:500px !important 
+    }
+    .slider-covid{
+        height:370px !important 
     }
     h1, h2, h3, h4, h5, h6{
         padding-bottom:2rem;
@@ -103,4 +113,12 @@ section{
         .slider-slum{
             height:500px !important
         }
+        .slider-covid{
+            height:300px !important 
+        }
+}
+@screen xl{
+    .slider-covid{
+        height:350px !important 
+    } 
 }

@@ -44,15 +44,15 @@ const IndexPage = () => {
                 <p className="lg:text-lg lg:text-left">
                   {item.description}
                 </p>
-                <button style={{backgroundColor:item.color}} className="p-1 text-sm font-bold text-white uppercase rounded-lg w-36 md:w-1/4 lg:w-3/6 lg:text-lg lg:p-2">
+                <button style={{backgroundColor:item.color}} className="p-1 text-sm font-bold text-white uppercase rounded-lg md:p-2 w-36 md:w-1/4 lg:w-3/6 lg:text-lg">
                   <Link to={item.link}>{item.button}</Link>
                 </button>
               </div>
               )
             })}
           </div>
-          <div className="sticky top-0 flex-1 block h-screen lg:top-28 md:flex md:justify-end">
-          <StaticImage className="h-screen"  src="../images/homebanner.png" alt="cover" />
+          <div className="sticky top-0 flex-1 block h-screen lg:top-28 lg:flex lg:justify-end">
+          <StaticImage className="h-screen md:w-full lg:w-auto"  src="../images/homebanner.png" alt="cover" />
           </div>
         </div>
       </section>

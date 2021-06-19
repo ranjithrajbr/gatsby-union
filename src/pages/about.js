@@ -22,8 +22,8 @@ const About = () => {
               alt="image"
             />
           </div>
-          <div className="flex-1 md:px-4">
-            <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
+          <div className="flex-1 md:px-4 md:pt-4 lg:py-0">
+            <h1 className="text-xl font-semibold text-center md:text-left md:text-4xl">
               Who we are
             </h1>
             <p className="text-center md:text-justify lg:text-left">
@@ -43,21 +43,38 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center md:py-3 lg:flex-row">
+      </section>
+      <section className="container">
+      <div className="flex flex-col items-center justify-center md:py-3 lg:flex-row">
           <div className="flex-1 md:px-4">
-            <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
+            <h1 className="text-xl font-semibold text-center md:text-left md:text-4xl">
               What we do
             </h1>
-            <p className="text-center lg:text-left md:text-justify">
-              We kick-started our journey with a slum rehabilitation program,
-              during which our volunteers did a complete need analysis and
-              helped implement the best solutions for them. As part of the
-              on-going battle against Covid-19, we have set up a dedicated
-              helpline to provide help to those in need. Our volunteers go out
-              of their way to provide help in any way they can.{" "}
-            </p>
+            <div className="">
+              <h2 className="py-1 text-sm font-semibold text-center md:text-left md:text-md">
+                Youth community
+              </h2>
+              <p className="text-center md:text-left lg:py-1">
+                The aspect of the youth community is a primary pillar of The Union. Engineering and aligning the youth towards sustainable, actionable change is one of the core components of our existence.
+              </p>
+            </div>
+            <div className="">
+              <h2 className="py-1 text-sm font-semibold text-center md:text-left md:text-md">
+                Platform for Change
+              </h2>
+              <p className="text-center md:text-left lg:py-1">
+              The Union functions as a platform for change by bringing together minds. We bring skills, experience and exposure onto one platform and create an opportunity for people to learn. This is carried out with the help of the youth community.
+              </p>
+            </div>
+            <div className="">
+              <h2 className="py-1 text-sm font-semibold text-center md:text-left md:text-md">
+              Hyper Local Intervention
+              </h2>
+              <p className="text-center md:text-left lg:py-1">
+              Citizens of a city looking after the city is an ideal scenario. At The Union, this change is brought out by a hyper local intervention approach. The youth of the community diffuses problems by aggregating resources and directing towards a particular target audience, Thereby, creating a sustainable impact.              </p>
+            </div>
           </div>
-          <div className="flex-1 md:px-4">
+          <div className="flex-1">
             <StaticImage
               className="flex-1 w-52 md:w-full"
               src="../images/home/what.jpg"
