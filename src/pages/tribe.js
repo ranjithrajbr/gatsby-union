@@ -8,7 +8,7 @@ import TeamCard from "../components/teamcard"
 const Tribe = () => {
   return (
     <Layout>
-      <section style={{backgroundColor:'#fd5555'}}>
+      <section style={{ backgroundColor: '#fd5555' }}>
         <div className="container flex items-center justify-between">
           <h1 className="text-2xl font-semibold text-white uppercase md:text-6xl">
             our tribe
@@ -16,9 +16,9 @@ const Tribe = () => {
           <img className="w-20 h-20 md:w-44 md:h-44" src={tgif} alt="Otter dancing with a fish" />
         </div>
       </section>
-      
+
       <section className="container md:pb-2">
-      <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center">
           <div className="flex-1">
             <p className="text-center md:text-2xl">
               We are only as strong as our team! Each person in our tribe has a
@@ -27,8 +27,8 @@ const Tribe = () => {
             </p>
           </div>
         </div>
-        </section>
-        <section className="container">
+      </section>
+      <section className="container">
         <div>
           <h1 className="text-xl font-semibold text-center uppercase md:text-4xl">
             Our founders
@@ -39,8 +39,8 @@ const Tribe = () => {
             <StaticImage className="w-3/6 md:w-4/5 lg:w-3/6" src="../images/Tariqn.jpg" alt="team" />
           </div>
           <div className="flex-1">
-          <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
-          Tariq Sheriff
+            <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
+              Tariq Sheriff
             </h1>
             <p>Tariq Sheriff is the co-founder of The Union. He is true leader in every sense and is a visionary. He has great interpersonal skills and can strike up a conversation on just about anything. His life is like a book and every chapter is so interesting that your curiosity always gets the better of you. He is a companion we all reach out to and is very dependable. Creativity soars through his veins apart from the adamantium pumped in. There is much to learn from Tariq, and we look up to his guidance.</p>
           </div>
@@ -50,8 +50,8 @@ const Tribe = () => {
             <StaticImage className="w-3/6 md:w-4/5 lg:w-3/6" src="../images/razin.jpeg" alt="team" />
           </div>
           <div className="flex-1">
-          <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
-           Razi Abbas
+            <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
+              Razi Abbas
             </h1>
             <p>Razi Abbas is the one stop solution for all your crazy, ground-breaking ideas. Driven by the concept of diffusing solutions through communities, Razi is one of the pillars holding The Union leading the way for the team. He has dedicated more than a year towards covid management and continues to relentlessly pursue and promote a proactive approach towards this cause. A friend, a confidante, not the best with movie choices but the best at sharing exciting experiences. He can be found making an SoP for the next big idea.</p>
           </div>
@@ -61,21 +61,21 @@ const Tribe = () => {
             <StaticImage className="w-3/6 md:w-4/5 lg:w-3/6" src="../images/john.jpeg" alt="team" />
           </div>
           <div className="flex-1">
-          <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
-          Yohann John
+            <h1 className="text-xl font-semibold text-center md:text-left md:text-3xl">
+              Yohann John
             </h1>
-            <p>Yohann John is known for his frankness, honesty, optimism and open-mindedness. There's no one else like him and his addition to the founding team has helped The Union in approaching and working with newer organisations.</p>
+            <p>Yohann John is known for his frankness, honesty, optimism and open-mindedness. Always the smartest person in the room, especially when it comes to finances. His love and dedication for the community can be seen through Sahayya Trust which he founded after leaving his corporate job at Zomato & PayTM. His addition to the founding team has helped The Union in approaching and working with newer organisations.</p>
           </div>
         </div>
       </section>
       <section className="container">
-          <h1 className="text-xl font-semibold text-center uppercase md:text-4xl">
-            Our Core Team
-          </h1>
-      
-       
-          <TeamCard/>
-        
+        <h1 className="text-xl font-semibold text-center uppercase md:text-4xl">
+          Our Core Team
+        </h1>
+
+
+        <TeamCard />
+
 
       </section>
     </Layout>
