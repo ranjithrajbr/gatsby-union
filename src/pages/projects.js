@@ -23,7 +23,7 @@ const Project = () => {
             Covid Management
             </h1>
             <p className="text-center md:text-justify lg:text-left">
-            To cater to the needs of specific medical requirements, the Union began its mission to support the battle against Covid-19. With over 700 registered volunteers, we created a helpline to meet the needs of the society. The volunteers have attended to over 33,000 calls, helping more than 8,500 Covid-19 positive patients in India. Our volunteers and partner organisations also help with the distribution of rations in low-income areas.
+            To cater to the needs of specific medical requirements, The Union began its mission to support the battle against Covid-19. With over 700 registered volunteers, we created a helpline to meet the needs of the society. The volunteers have attended to over 33,000 calls, helping more than 8,500 Covid-19 positive patients in India. Our volunteers and partner organisations also help with the distribution of rations in low-income areas.
             </p>
             <button className="p-3 text-sm font-bold text-white uppercase rounded-lg bg-u-yellow ">
             <Link to="/covid">Know more</Link>

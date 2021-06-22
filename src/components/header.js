@@ -48,7 +48,7 @@ function Header() {
           <ul className="lg:flex lg:justify-center lg:items-center lg:flex-1">
             <li className="p-3 font-semibold"><Link to="/about">About Us</Link></li>
             <li className="p-3 font-semibold"><Link to="/tribe">Our Tribe</Link></li>
-            <li className="p-3 font-semibold"><Link to="/projects">Our Project</Link></li> 
+            <li className="p-3 font-semibold"><Link to="/projects">Our Projects</Link></li> 
             <li className="p-3 font-semibold"><Link to="/covid">Covid Management</Link></li>
           </ul>
           <div className="pl-2 lg:pl-0 lg:flex lg:justify-center lg:items-center">

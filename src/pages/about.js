@@ -33,7 +33,7 @@ const About = () => {
               creating an impact. Having been in the social sector for a while,
               we noticed that people not coming together to help society was a
               huge problem. Our vision is to build a youth community that works
-              together for a better tomorrow
+              together for a better tomorrow.
             </p>
             <p className="text-center md:text-justify lg:text-left">
               In simpler terms, we are a social aggregator which thrives on the
@@ -55,7 +55,7 @@ const About = () => {
                 Youth Community
               </h2>
               <p className="text-center md:text-left lg:py-1">
-                The aspect of the youth community is a primary pillar of The Union. Engineering and aligning the youth towards sustainable, actionable change is one of the core components of our existence.
+                The aspect of the youth community is a primary pillar of The Union. Engineering and aligning the youth towards sustainable and actionable change is one of the core components of our existence.
               </p>
             </div>
             <div className="">
@@ -71,7 +71,7 @@ const About = () => {
               Hyper Local Intervention
               </h2>
               <p className="text-center md:text-left lg:py-1">
-              Citizens of a city looking after the city is an ideal scenario. At The Union, this change is brought out by a hyper local intervention approach. The youth of the community diffuses problems by aggregating resources and directing towards a particular target audience, Thereby, creating a sustainable impact.              </p>
+              Citizens of a city looking after the city is an ideal scenario. At The Union, this change is brought out by a hyper local intervention approach. The youth of the community diffuses problems by aggregating resources and directing towards a particular target audience. Thereby, creating a sustainable impact.</p>
             </div>
           </div>
           <div className="flex-1">

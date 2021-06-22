@@ -7,7 +7,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const IndexPage = () => {
   const content = [
     {
-      title: "We are the Union",
+      title: "We are The Union",
       description: "Uniting people from various walks of life to work together for a better future",
       button: 'Know more',
       color:'#008037',

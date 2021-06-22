@@ -13,7 +13,7 @@ const TeamCard = () => {
                 return (
                     <div key={index} className="flex flex-col items-center justify-center py-4">
                         <div className="flex-1">
-                            <img className="object-cover rounded-full w-28 md:w-36 md:h-36 lg:w-40 lg:h-40" src={item.image} alt="team" />
+                            <img className="object-cover rounded-full w-28 h-28 md:w-36 md:h-36 lg:w-40 lg:h-40" src={item.image} alt="team" />
                         </div>
                         <div className="flex-1">
                             <span className="block py-4 font-semibold">{item.name}</span>
