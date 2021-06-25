@@ -1,5 +1,9 @@
 [
     {
+        "name":"Ajey Shetty",
+       "image":"/team/team/AjeyShetty.jpg" 
+    },
+    {
         "name":"Anup Devaraja",
        "image":"/team/team/AnupDevaraja.jpg" 
     },
@@ -18,6 +22,10 @@
     {
         "name":"Elton Brandon ",
        "image":"/team/team/EltonBrandon.jpg"
+    },
+    {
+        "name":"Gauthami Shankar ",
+       "image":"/team/team/GauthamiShankar.jpg"
     },
     {
         "name":"Kaira Sachdev ",
@@ -58,6 +66,10 @@
     {
         "name":"Soumya Bhasin",
        "image":"/team/team/Soumya.jpg"
+    },
+    {
+        "name":"Tanya Chhabria",
+       "image":"/team/team/TanyaChhabria.jpg"
     },
     {
         "name":"Zumair Khaja ",

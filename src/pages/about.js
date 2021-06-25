@@ -37,7 +37,7 @@ const About = () => {
             </p>
             <p className="text-center md:text-justify lg:text-left">
               In simpler terms, we are a social aggregator which thrives on the
-              asset of the youth community that we create. The union aims to
+              asset of the youth community that we create. The Union aims to
               unite people in society to work together for a better tomorrow. We
               are nothing without YOU!
             </p>
@@ -45,7 +45,7 @@ const About = () => {
         </div>
       </section>
       <section className="container">
-      <div className="flex flex-col items-center justify-center md:py-3 lg:flex-row">
+        <div className="flex flex-col items-center justify-center md:py-3 lg:flex-row">
           <div className="flex-1 md:px-4">
             <h1 className="text-2xl font-semibold text-center md:text-left md:text-4xl">
               What we do
@@ -63,15 +63,15 @@ const About = () => {
                 Platform for Change
               </h2>
               <p className="text-center md:text-left lg:py-1">
-              The Union functions as a platform for change by bringing together minds. We bring skills, experience and exposure onto one platform and create an opportunity for people to learn. This is carried out with the help of the youth community.
+                The Union functions as a platform for change by bringing together minds. We bring skills, experience and exposure onto one platform and create an opportunity for people to learn. This is carried out with the help of the youth community.
               </p>
             </div>
             <div className="">
               <h2 className="py-1 font-semibold text-center text-md md:text-left md:text-xl">
-              Hyper Local Intervention
+                Hyper Local Intervention
               </h2>
               <p className="text-center md:text-left lg:py-1">
-              Citizens of a city looking after the city is an ideal scenario. At The Union, this change is brought out by a hyper local intervention approach. The youth of the community diffuses problems by aggregating resources and directing towards a particular target audience. Thereby, creating a sustainable impact.</p>
+                Citizens of a city looking after the city is an ideal scenario. At The Union, this change is brought out by a hyper local intervention approach. The youth of the community diffuses problems by aggregating resources and directing towards a particular target audience. Thereby, creating a sustainable impact.</p>
             </div>
           </div>
           <div className="flex-1">
