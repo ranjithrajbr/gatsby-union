@@ -22,8 +22,8 @@ const Footer = () => (
                 <ul className="flex">
                     <li className="px-2"><a href="https://www.instagram.com/theunion_bengaluru/"><StaticImage className="w-6" src="../images/instagram.png" placeholder="blurred" alt="instagram"/></a></li>
                     <li className="px-2"><a href="https://www.facebook.com/theunion.blr/"><StaticImage className="w-6" src="../images/facebook.png" placeholder="blurred" alt="facebook" /></a></li>
-                    <li className="px-2"><a href="https://www.linkedin.com/company/the-union-bengaluru/"><StaticImage className="w-6" src="../images/twitter.png" placeholder="blurred" alt="twitter" /></a></li>
-                    <li className="px-2"><a href="https://twitter.com/union_bengaluru"><StaticImage className="w-6" src="../images/linkedin.png" placeholder="blurred" alt="linkedin" /></a></li>
+                    <li className="px-2"><a href="https://twitter.com/union_bengaluru"><StaticImage className="w-6" src="../images/twitter.png" placeholder="blurred" alt="twitter" /></a></li>
+                    <li className="px-2"><a href="https://www.linkedin.com/company/the-union-bengaluru/"><StaticImage className="w-6" src="../images/linkedin.png" placeholder="blurred" alt="linkedin" /></a></li>
                     <li className="px-2"><a href="https://www.clubhouse.com/club/the-union-world"><StaticImage className="w-6" src="../images/clubhouse.png" placeholder="blurred" alt="linkedin" /></a></li>
                 </ul>
                 </div>
